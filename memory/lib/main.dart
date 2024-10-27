@@ -1,8 +1,15 @@
-// ignore_for_file: avoid_unnecessary_containers, prefer_const_constructors
+// ignore_for_file: avoid_unnecessary_containers, prefer_const_constructors, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
 import 'package:memory/home.dart';
 import 'package:memory/vigilante/page1.dart';
+import 'package:memory/vigilante/page2.dart';
+import 'package:memory/vigilante/page3.dart';
+import 'package:memory/vigilante/page4.dart';
+import 'package:memory/vigilante/page5.dart';
+import 'package:memory/vigilante/page6.dart';
+import 'package:memory/vigilante/page7.dart';
+import 'package:memory/vigilante/page8.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,12 +30,20 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         body: Container(
+          width: double.infinity,
           child: PageView(
             controller: _controller,
-            scrollDirection: Axis.vertical,
+            scrollDirection: Axis.horizontal,
             children: const [
               HomePage(),
-              Page1()
+              Page1(),
+              Page2(),
+              Page3(),
+              Page4(),
+              Page5(),
+              Page6(),
+              Page7(),
+              Page8()
             ],
           ),
         ),
