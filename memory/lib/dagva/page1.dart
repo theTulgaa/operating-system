@@ -5,7 +5,7 @@ class Page1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Page 9'),
+        title: Text('Page9'),
       ),
       body: Center(
         child: Padding(
