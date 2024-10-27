@@ -10,7 +10,10 @@ import 'package:memory/vigilante/page5.dart';
 import 'package:memory/vigilante/page6.dart';
 import 'package:memory/vigilante/page7.dart';
 import 'package:memory/vigilante/page8.dart';
-
+import 'package:memory/dagva/page1.dart';
+import 'package:memory/dagva/page2.dart';
+import 'package:memory/dagva/page3.dart';
+import 'package:memory/dagva/page4.dart';
 void main() {
   runApp(MyApp());
 }
