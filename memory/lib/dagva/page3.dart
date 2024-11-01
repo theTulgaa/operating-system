@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class PageReplacementPage extends StatelessWidget {
+  const PageReplacementPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

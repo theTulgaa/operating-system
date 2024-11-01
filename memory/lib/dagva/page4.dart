@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class OptimalAlgorithmPage extends StatelessWidget {
+  const OptimalAlgorithmPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
